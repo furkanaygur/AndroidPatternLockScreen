@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+    </style>
+    <style name="PatternLockView"></style>
+    <style name="PatternLockView.Furkan">
+        <item name="plv_selectedCellBackground">@drawable/thinking</item>
+        <item name="plv_errorCellBackground">@drawable/shitemoji</item>
+        <item name="plv_lineStyle">indicator</item>
+        <item name="plv_regularLineColor">@color/selectedColor</item>
+        <item name="plv_errorLineColor">@color/errorColor</item>
+        <item name="plv_spacing">75dp</item>
+        <item name="plv_selectedDotRadiusRatio">0.01</item>
+        <item name="plv_errorDotRadiusRatio">0.01</item>
+        <item name="plv_regularCellBackground">@drawable/kalp</item>
+        <item name="plv_regularDotRadiusRatio">0.01</item>
+    </style>
+</resources>

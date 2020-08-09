@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/arkaplan"
+    >
+
+    <DigitalClock
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#FFF"
+        />
+
+    <TextView
+
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Güvenlik Desenini Giriniz"
+        android:textAlignment="center"
+        android:textColor="#A9FFFFFF"
+        android:textSize="15sp" />
+
+    <com.itsxtt.patternlock.PatternLockView
+        android:layout_marginTop="5dp"
+        android:id="@+id/patternLockView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/PatternLockView.Furkan"
+        />
+
+
+
+</LinearLayout>

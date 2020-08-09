@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PatternLockView">
+
+        <attr name="plv_regularCellBackground" format="color|reference"/>
+        <attr name="plv_regularDotColor" format="color"/>
+        <attr name="plv_DotDesign" format="color|reference"/>
+        <attr name="plv_regularDotRadiusRatio" format="float"/>
+
+        <attr name="plv_selectedCellBackground" format="color|reference"/>
+        <attr name="plv_selectedDotColor" format="color"/>
+        <attr name="plv_selectedDotRadiusRatio" format="float"/>
+
+        <attr name="plv_errorCellBackground" format="color|reference"/>
+        <attr name="plv_errorDotColor" format="color"/>
+        <attr name="plv_errorDotRadiusRatio" format="float"/>
+
+        <attr name="plv_lineStyle" format="enum">
+            <enum name="common" value="1"></enum>
+            <enum name="indicator" value="1"></enum>
+        </attr>
+        <attr name="plv_lineWidth" format="dimension"/>
+        <attr name="plv_regularLineColor" format="color"/>
+        <attr name="plv_errorLineColor" format="color"/>
+
+        <attr name="plv_spacing" format="dimension"/>
+
+        <attr name="plv_rowCount" format="integer"/>
+        <attr name="plv_columnCount" format="integer"/>
+
+        <attr name="plv_errorDuration" format="integer"/>
+        <attr name="plv_hitAreaPaddingRatio" format="float"/>
+        <attr name="plv_indicatorSizeRatio" format="float"/>
+    </declare-styleable>
+
+</resources>
